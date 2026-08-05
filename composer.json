@@ -1,0 +1,1 @@
+{"name": "serhii/country-bot", "type": "project", "require": {"nutgram/nutgram": "^4.0", "fyennyi/async-cache-php": "@dev"}, "repositories": [{"type": "path", "url": "/home/serhii/alerts-in-ua-php/async-cache-php"}], "minimum-stability": "dev", "prefer-stable": true}

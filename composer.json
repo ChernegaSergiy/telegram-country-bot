@@ -4,7 +4,7 @@
     "type": "project",
     "require": {
         "irazasyed/telegram-bot-sdk": "^3.0",
-        "fyennyi/async-cache-php": "@dev",
+        "fyennyi/async-cache-php": "dev-main",
         "guzzlehttp/guzzle": "^7.0",
         "symfony/cache": "^7.4",
         "monolog/monolog": "^2.11",
@@ -15,12 +15,6 @@
             "Chernegasergiy\\TelegramCountryBot\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

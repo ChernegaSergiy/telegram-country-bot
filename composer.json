@@ -1,1 +1,26 @@
-{"name": "serhii/country-bot", "type": "project", "require": {"nutgram/nutgram": "^4.0", "fyennyi/async-cache-php": "@dev"}, "repositories": [{"type": "path", "url": "/home/serhii/alerts-in-ua-php/async-cache-php"}], "minimum-stability": "dev", "prefer-stable": true}
+{
+    "name": "chernegasergiy/telegram-country-bot",
+    "description": "Classic Telegram Country Bot",
+    "type": "project",
+    "require": {
+        "irazasyed/telegram-bot-sdk": "^3.0",
+        "fyennyi/async-cache-php": "@dev",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/cache": "^7.4",
+        "monolog/monolog": "^2.11",
+        "loilo/fuse": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chernegasergiy\\TelegramCountryBot\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

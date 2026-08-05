@@ -4,12 +4,12 @@ A Telegram bot for searching countries via inline queries. It uses fuzzy search,
 
 ## Features
 
-- Inline query search for countries by name
-- Fuzzy matching via `loilo/fuse`
-- Asynchronous caching with background refresh using `fyennyi/async-cache-php`
-- Structured logging to stdout and `bot.log`
-- `/start` and `/clear` commands
-- Country details: name, capital, population, flag, Google Maps link
+- **Inline Query Search**: Fuzzy matching for country names via inline Telegram queries, powered by `loilo/fuse`.
+- **Asynchronous Caching**: Country data is cached with background refresh using `fyennyi/async-cache-php`.
+- **Structured Logging**: Logs are written to stdout and `bot.log` via Monolog with configurable formatting.
+- **Country Details**: Results include the country name, capital, population, flag image, and a Google Maps link.
+- **Cache Management**: The `/clear` command invalidates cached country data on demand.
+- **Long Polling Loop**: The bot continuously fetches updates from Telegram and handles messages and inline queries.
 
 ## Requirements
 
